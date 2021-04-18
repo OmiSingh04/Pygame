@@ -54,7 +54,7 @@ class Ball:
   	  self.vy *= -1
   	elif self.y >= screen_y:
   	  print("you lost :O")
-  	  pygame.quit()
+  	  pygame.quit()#always call them together
   	  sys.exit()
 
 
