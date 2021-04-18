@@ -28,6 +28,7 @@ for i in range(30):
 for each in particles:
   each.display()
 
+#update the full display
 pygame.display.flip()
 
 running = True
