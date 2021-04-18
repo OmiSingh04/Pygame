@@ -19,7 +19,7 @@ screen.fill(color)
 pygame.display.set_caption('ball')
 
 dx, dy = 130, 223
-vx, vy = 0.5,0.5
+vx, vy = 0.5,0.5 #vectors that move the thing
 particle = Particle(dx,dy,30)
 
 running = True
