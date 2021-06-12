@@ -17,7 +17,6 @@ screen_y = 840
 screen = pygame.display.set_mode((screen_x,screen_y))
 
 screen.fill((255, 255, 255))
-#pygame.draw.rect(screen, (0,0,0), pygame.Rect(0,0,840,840), 15)
 pygame.display.set_caption('TicTacToe')
 
 
