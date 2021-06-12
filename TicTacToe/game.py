@@ -31,8 +31,8 @@ game_over = False
 remaining_spaces = 9
 switch = 0
 a = [[0,0,0],
-	 [0,0,0],
-	 [0,0,0]]
+     [0,0,0],
+     [0,0,0]]
 
 #0 indicates blank
 #1 indicates cross
