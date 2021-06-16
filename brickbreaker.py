@@ -1,3 +1,4 @@
+#just realized it doesnt really have bricks :)
 import pygame
 import sys
 import math
