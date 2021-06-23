@@ -1,4 +1,3 @@
-#MOVE IT!
 import pygame
 import random as rd
 
