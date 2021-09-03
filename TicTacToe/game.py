@@ -46,7 +46,7 @@ def draw_lines():
 	pygame.draw.line(screen, (0,0,0), (0,25 + 500),(840, 25 + 500), 15)
 	pygame.draw.rect(screen, (0,0,0), pygame.Rect(0,0,840,840), 15)
 
-
+#i dont even remember what the fuck i even did here
 def render(gaps):
 	for i in range(3):
 		startY = gaps
@@ -80,8 +80,8 @@ def check_win():#returns 0 if game is in progress, 1 if cross wins, 2 if circle 
 
 	return 0
 
-draw_lines()
-while running:
+draw_lines()#man i feel smart seeing this, i dont understand anything :0
+while running:#im talking to myself, right...
 
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
