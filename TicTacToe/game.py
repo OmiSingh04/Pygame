@@ -80,7 +80,7 @@ def check_win():#returns 0 if game is in progress, 1 if cross wins, 2 if circle 
 
 	return 0
 
-draw_lines()#man i feel smart seeing this, i dont understand anything :0
+draw_lines()
 while running:#im talking to myself, right...
 
 	for event in pygame.event.get():
